@@ -13,8 +13,8 @@ export const appwriteConfig = {
   endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT!,
   projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
   platform: "com.beian.fastfood",
-  databaseId: process.env.APPWRITE_DB_ID!,
-  userTableId: process.env.APPWRITE_USER_TABLE_ID!,
+  databaseId: process.env.EXPO_PUBLIC_APPWRITE_DB_ID!,
+  userTableId: process.env.EXPO_PUBLIC_APPWRITE_USER_TABLE_ID!,
 };
 
 export const client = new Client();
